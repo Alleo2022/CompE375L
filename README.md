@@ -1,2 +1,2 @@
 # CompE375L
-Code from CompE 375 Labs
+My code from CompE 375 Labs (Written in Atmel Studios C)

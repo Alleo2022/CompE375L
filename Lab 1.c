@@ -9,7 +9,7 @@
 #include <avr/io.h>
 #include <util/delay.h>
 #include <string.h>
-  using namespace std;
+using namespace std;
   void dot(){
     PORTB |= (1<<PORTB5); // Set port bit B5 to 1 to turn on the LED
     _delay_ms(200); // Delay 200ms

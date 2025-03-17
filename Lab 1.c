@@ -320,12 +320,12 @@
     while(1){
       char stringToPrint [] = "anna leonhardt 826624208"; //sets a string of characters to the array to be sorted through
       int length = (unsigned)strlen(stringToPrint); //Traverses across the length of the string to apply the correct funtions.
-    for(int i = 0; i < length; i++){ //Allows for the increase in indexing across the characters in the array
+      for(int i = 0; i < length; i++){ //Allows for the increase in indexing across the characters in the array
       stringtomorse(stringToPrint[i]); //Calls the stringtomorse function to translate all the given letters, numbers, and spaces to morse
-    }
+      }
 //Displays a larger delay to demonstrate the end of the string before repeating
 wordspace();
 wordspace();
-  }
+    }
 }
 ```
